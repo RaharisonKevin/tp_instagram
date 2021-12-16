@@ -5,18 +5,18 @@ Lien De la page d'acceuil Instagram [ICI](https://raharisonkevin.github.io/tp_in
  Réalisation d'une page de connexion instagram.
 
 ## 2. Cahier des charges
-* 1. Les technologies autorisées sont : html5, css3, javascript et Framawork Google font
-* 2. Utilisez Sublim-Text ou Visual Studio Code
-* 3. Le code HTML généré doit être valide selon les normes du W3C
-* 4. La largeur du formulaire est de : 370px. La couleur du background du formulaire est: #ffffff.
-* 5. La couleur du background de body est: #fafafa
-* 6. La couleur à l’intérieur des champs est #fafafa et celle du bouton #3897f0
-* 7. La police est Open Sans et pour le titre il faut intégrer l’image svg contenu dans le répertoire 
+* Les technologies autorisées sont : html5, css3, javascript et Framawork Google font
+* Utilisez Sublim-Text ou Visual Studio Code
+* Le code HTML généré doit être valide selon les normes du W3C
+* La largeur du formulaire est de : 370px. La couleur du background du formulaire est: #ffffff.
+* La couleur du background de body est: #fafafa
+* La couleur à l’intérieur des champs est #fafafa et celle du bouton #3897f0
+* La police est Open Sans et pour le titre il faut intégrer l’image svg contenu dans le répertoire 
 sources.
 Votre rendu se présentera sous la forme d’une archive zip avec le squelette suivant : 
 instagram-votre-nom.zip (le dossier doit être nommé avec votre nom)
-* 8. Votre rendu sera envoyé dans un dépôt GitHub
-* 9. L’ergonomie et la finition des interfaces seront prises en compte dans la notation, tout 
+* Votre rendu sera envoyé dans un dépôt GitHub
+* L’ergonomie et la finition des interfaces seront prises en compte dans la notation, tout 
 comme la propreté et la clarté de votre code.
 
 ## Fonctionnement 
