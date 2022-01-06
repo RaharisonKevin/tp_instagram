@@ -87,7 +87,7 @@ fieldset h2 {
 }
 .trends img {
   display: block;
-  max-width: 25rem;
+  max-width: 100%;
   border: solid 0.1;
   border-color: #292929;
 }
