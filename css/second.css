@@ -25,95 +25,45 @@ html{
         margin: 0;
         padding: 0;
     }
-    a{
+    a,abbr{
         color: #222;
         text-decoration: none;
     }
     /*theme*/
-
 header h1{
-
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     text-align: center;
     font-weight: normal;
     font-size: 2rem;
-    color: #222;
+    color: rgb(139, 139, 139);
     
 }
 header h1 span{
     color: #222 ;
 }
+
 fieldset{
-    background-color:  #fafafafa;
+    background-color:  #ffffff;
     margin: 0 auto;
     max-width: 37rem;
     border: solid 0.15rem;
-    border-color: #d8d7d7;
+    border-color: #d4d3d3;
 }
-.Instagram{
+fieldset h2{
+    text-align: center;
+    color: rgb(0, 122, 0);
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+.instagram{
     display: block;
     margin: 0 auto;
-    padding-top: 2.5rem;
-    padding-bottom: 3rem;
-    max-width: 15rem;    
-    
+    max-width: 18rem;    
+    padding-top: 2rem;
+    padding-bottom: 1.2rem;
 }
-main .form{
-    
-    display: block;
-    margin: 0 auto;
-    font-size: 1.6rem;
-    
-   
-}
- .form input{
-    background-color: #fafafafa;
-    border: solid 0.15rem;
-    border-color: #8d8d8d;
-    border-radius: 0.3rem;
-    margin: 1rem auto;
-    padding-left: 1rem;
-}
-
-.icon_fb{
-    max-width: 1.4rem;
-}
-.form ul{
-    text-align: center;
-    color: #52585e;
-    padding-top: 2.5rem;
-    
-}
-.form hr{
-    height: .1rem;
-    background-color: #616161;
-    border: none;
-}
-.ou{
-    text-align: center;
-    transform: translateY(2rem);
-    margin: 0rem auto;
-    background-color: #fff;
-    width: 4rem;
-    color: #7a7a7a;    
-}
-
-.form input[type="submit"]{
-    background-color:#3897f0;
-    color: #FFF;
-    border-color: #3892e7;
-    
-}
-.form input, .form label{
-    display: block;
-    width: 100%;
-    line-height: 5rem;
-}
-.form input[placeholder], input[type="submit"]{
-    font-size: inherit;
-}
-.account{
+.id{
     text-align: center;
     padding-top: 1rem;
     background-color: #ffffff;
@@ -122,18 +72,51 @@ main .form{
     margin: .9rem auto;
     max-width: 37rem;
     padding: 2rem;
+    font-size: 1.8rem;
+}
+
+.trends ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+}
+.trends img{
+    display: block;
+    max-width: 20rem;
+    border: solid .1rem;
+    border-color: #292929;
     
 }
-section ul li{
+.trends{
+    margin: 0 auto;
+    max-width: 60rem; 
+}
+.trends h3{
+    font-size: 2rem;
+    text-align: center;
+    background-color: #292929;
+    color: #cacaca;
+    line-height: 3.5rem;
+}
+.trends p img{
+    border: none;
+    max-width: 2rem;    
+}
+.trends h2::before{
+    position: relative;
+    top: .6rem
+}
+.store ul li{
     margin: 2rem auto;
     text-align: center;
     display: block;
+    
 }
-section ul li img{
+.store ul li img{
     max-width: 15rem;
+}
+h4{
+    text-align: center;
 }
 footer{
     text-align: center;
-    text-decoration: overline;
-    font-weight: bold;
 }

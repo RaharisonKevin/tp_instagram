@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./ico/ico.ico">
     <title>Instagram Homepage</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-        <header>
-            <h1>RÉALISATION D'UNE COPIE DE LA PAGE DE CONNEXION DU SITE INSTAGRAM</h1>
-        </header>
-        <main>         
-                      <section>  
-                        <fieldset> 
-                            <h2><img src="./svg/logo_instagram.svg" alt=""> </h2>    
-                        <form action="#" method="get">
-                        <input type="text" id="mail" name="mail" placeholder="Mail d'utilisateur" aria-required="true">
-                        <input type="text" id="password" name="password" placeholder="Mot de passe" aria-required="true">
-                        <input type="submit" value="Se connecter">
-                        <p>OU</p>
-                        <hr>
-                        <img src="" alt="">
-					    <p>Se connecter avec Facebook</p>
-					    <a href="#">Mot de passe oublié ?</a>
-                        </form>
-                    </fieldset> 
-                    <fieldset>
-                        <p>Vous n'avez pas de compte ? <a href="">Inscrivez-vous</a></p>
-                    </fieldset>
-                    <h3>Télécharger l'application</h3>
-                    <ul>
-                        <img src="./asset/appleStore.png" alt="appleStore">
-                        <img src="./asset/googlePlay.png" alt="googlePlay">
-                    </ul>
-
-                    </section>    
-            
-            
-        </main>
-        <footer>
-            <ul class="center">
-                
-                <li><a href="">©2021 Instagram par K.R</a></li>
-            </ul>
-        </footer>
-    </body>
     
+    <header>
+        <h1>RÉALISATION D'UNE COPIE DE LA PAGE DE CONNEXION DU SITE INSTAGRAM</h1>
+    </header>
+    <main>
+        <section class="form">
+            <fieldset>
+                <h2><img src="./svg/logo_instagram.svg" alt="Instagram" class="Instagram"> </h2>
+                <p class="warning"></p>
+                <form action="accueil.html" method="get">
+                    <input type="email" id="email" name="mail" placeholder="Mail d'utilisateur" aria-required="true">
+                    <input type="password" id="password" name="password" placeholder="Mot de passe" aria-required="true">
+                    <input type="submit" value="Se connecter">
+                </form>
+                    <p class="ou">OU</p>
+                    <hr>
+                    <ul>
+                    <li><p><img src="./asset/faceBook.png" class="icon_fb" alt="logo_facebook">
+                    Se connecter avec Facebook</p></li>
+                    <li><a href="#">Mot de passe oublié ?</a></li>
+                    </ul>
+                
+            </fieldset>
+        </section>
+            <section>
+                <p class="account"> Vous n'avez pas de compte ? <a href="#">Inscrivez vous</a> </p>
+                <ul>
+                    <li> <p>Telécharger l'application</p></li>
+                    <li>
+                        <img src="./asset/appleStore.png" alt="apple">
+                        <img src="./asset/googlePlay.png" alt="google">
+                    </li>
+                </ul>
+            </section>
 
+
+    </main>
+    <footer>
+        <ul class="center">
+
+            <li><a href="">&copy; 2022 Instagram par K.R</a></li>
+        </ul>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
 </html>
