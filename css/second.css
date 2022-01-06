@@ -87,28 +87,26 @@ fieldset h2 {
 }
 .trends img {
   display: block;
-  max-width: 20rem;
+  max-width: 25rem;
   border: solid 0.1;
   border-color: #292929;
 }
 .trends {
   margin: 0 auto;
-  max-width: 60rem;
+  max-width: 75rem;
 }
 .trends h3 {
   font-size: 2rem;
   text-align: center;
   background-color: #292929;
-  color: #cacaca;
+  color: #969696;
   line-height: 3.5rem;
 }
 
 .trends h3::before {
   content: url(/asset/Instagram_icon.png);
   position: relative;
-  max-width: 2rem;
   top: 0.5rem;
-  
 }
 .store ul li {
   margin: 2rem auto;
