@@ -107,7 +107,7 @@ fieldset h2 {
   max-width: 2rem;
 }
 .trends h3::before {
-  content: url(/asset/Instagram_icon-icons.com_66804.png);
+  content: url(/asset/Instagram_icon.png);
   position: relative;
   top: 0.5rem;
 }
