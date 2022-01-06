@@ -25,7 +25,7 @@ html{
         margin: 0;
         padding: 0;
     }
-    a,abbr{
+    a{
         color: #222;
         text-decoration: none;
     }
@@ -36,7 +36,7 @@ header h1{
     text-align: center;
     font-weight: normal;
     font-size: 2rem;
-    color: rgb(139, 139, 139);
+    color: #5e5e5e;
     
 }
 header h1 span{
@@ -101,9 +101,10 @@ fieldset h2{
     border: none;
     max-width: 2rem;    
 }
-.trends h2::before{
+.trends h3::before{
+    content: url(/asset/Instagram_icon-icons.com_66804.png);
     position: relative;
-    top: .6rem
+    top: .5rem;
 }
 .store ul li{
     margin: 2rem auto;
@@ -119,4 +120,6 @@ h4{
 }
 footer{
     text-align: center;
+    text-decoration: overline;
+    font-weight: bold;
 }
